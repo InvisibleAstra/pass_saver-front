@@ -18,9 +18,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { mainListItems, secondaryListItems } from './listItems';
-import {BrowserRouter, RouterProvider} from "react-router-dom";
-import {Route} from "@mui/icons-material";
-import {router} from "../../route/route";
+import {routers} from "../../route/route";
 
 
 function Copyright(props: any) {
@@ -123,7 +121,7 @@ function DashboardContent() {
               noWrap
               sx={{ flexGrow: 1 }}
             >
-              Dashboard
+              PassSaver
             </Typography>
             <IconButton color="inherit">
               <Badge badgeContent={4} color="secondary">
@@ -147,7 +145,7 @@ function DashboardContent() {
           </Toolbar>
           <Divider />
           <List component="nav">
-            {mainListItems}
+           {mainListItems}
             <Divider sx={{ my: 1 }} />
             {secondaryListItems}
           </List>
@@ -166,7 +164,7 @@ function DashboardContent() {
         >
           <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-           <RouterProvider router={router}/>
+            {routers}
             <Copyright sx={{ pt: 4 }} />
           </Container>
         </Box>
