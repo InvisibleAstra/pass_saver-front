@@ -6,7 +6,7 @@ const defaultState = {
         {
             id: 1,
             img: 'https://w7.pngwing.com/pngs/244/820/png-transparent-games-gaming-squircle-world-of-tanks-wot-popular-games-icon.png',
-            title: 'title1'
+            title: 'title1',
         }, {
             id: 2,
             img: 'https://w7.pngwing.com/pngs/244/820/png-transparent-games-gaming-squircle-world-of-tanks-wot-popular-games-icon.png',

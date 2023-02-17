@@ -163,7 +163,7 @@ function DashboardContent() {
           }}
         >
           <Toolbar />
-          <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+          <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }} >
             {routers}
             <Copyright sx={{ pt: 4 }} />
           </Container>
